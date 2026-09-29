@@ -1,0 +1,106 @@
+<section class="explore-page">
+
+    <!-- 3 nút giống giao diện mẫu -->
+    <section class="explore-shortcuts">
+        <button class="explore-shortcut" data-target="newReleases">
+            <span>◉</span>
+            <strong>Bản phát hành mới</strong>
+        </button>
+
+        <button class="explore-shortcut" data-target="charts">
+            <span>⌁</span>
+            <strong>Bảng xếp hạng</strong>
+        </button>
+
+        <button class="explore-shortcut" data-target="categories">
+            <span>☺</span>
+            <strong>Tâm trạng và thể loại</strong>
+        </button>
+    </section>
+
+
+    <!-- BẢN PHÁT HÀNH MỚI -->
+
+    <section class="explore-section" id="newReleases">
+        <div class="explore-section-header">
+            <h1>Bản phát hành mới</h1>
+
+            <div class="explore-arrows">
+                <button class="explore-prev">‹</button>
+                <button class="explore-next">›</button>
+            </div>
+        </div>
+
+        <div class="explore-horizontal" id="newReleaseList"></div>
+    </section>
+
+
+    <!-- ALBUM -->
+
+    <section class="explore-section">
+        <div class="explore-section-header">
+            <h1>Khám phá Albums mới</h1>
+
+            <div class="explore-arrows">
+                <button class="explore-prev">‹</button>
+                <button class="explore-next">›</button>
+            </div>
+        </div>
+
+        <div class="explore-horizontal" id="albumExploreList"></div>
+    </section>
+
+
+    <!-- TÂM TRẠNG / THỂ LOẠI -->
+
+    <section class="explore-section" id="categories">
+        <div class="explore-section-header">
+            <h1>Tâm trạng và thể loại</h1>
+        </div>
+
+        <div class="category-grid" id="categoryList"></div>
+        <div class="explore-section-header category-lines-header">
+            <h2>Dòng nhạc</h2>
+        </div>
+
+        <div class="category-grid" id="lineList"></div>
+    </section>
+
+
+    <!-- VIDEO -->
+
+    <section class="explore-section">
+        <div class="explore-section-header">
+            <h1>Video nhạc mới</h1>
+
+            <div class="explore-arrows">
+                <button class="explore-prev">‹</button>
+                <button class="explore-next">›</button>
+            </div>
+        </div>
+
+        <div class="explore-horizontal" id="videoList"></div>
+    </section>
+
+
+    <!-- BẢNG XẾP HẠNG -->
+
+    <section class="explore-section" id="charts">
+        <div class="explore-section-header">
+            <h1>Bảng xếp hạng</h1>
+        </div>
+
+        <div class="chart-tabs">
+            <button class="chart-tab active" data-chart="videos">
+                Video
+            </button>
+
+            <button class="chart-tab" data-chart="artists">
+                Nghệ sĩ
+            </button>
+        </div>
+
+        <div id="chartList" class="chart-list"></div>
+    </section>
+
+</section>

@@ -1,0 +1,38 @@
+<section class="login-page">
+    <div class="login-box">
+        <div class="login-logo" aria-hidden="true">♫</div>
+
+        <h1 id="authTitle">Đăng nhập</h1>
+        <p class="login-description" id="authDescription">Đăng nhập để tiếp tục sử dụng tài khoản âm nhạc.</p>
+
+        <form id="authForm">
+            <div class="form-group" id="nameGroup" hidden>
+                <label for="name">Tên</label>
+                <input type="text" id="name" placeholder="Tên của bạn" autocomplete="name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="email@example.com" autocomplete="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Mật khẩu</label>
+                <div class="password-box">
+                    <input class="auth-password-input" type="password" id="password" placeholder="Mật khẩu" autocomplete="current-password" required>
+                    <button type="button" id="showPassword" class="show-password" aria-pressed="false">Hiện</button>
+                </div>
+            </div>
+
+            <div class="form-group" id="confirmPasswordGroup" hidden>
+                <label for="confirmPassword">Xác nhận mật khẩu</label>
+                <input class="auth-password-input" type="password" id="confirmPassword" placeholder="Nhập lại mật khẩu" autocomplete="new-password">
+            </div>
+
+            <p id="authMessage" class="login-message" role="status"></p>
+            <button type="submit" id="authSubmit" class="login-submit">Đăng nhập</button>
+        </form>
+
+        <button type="button" id="authModeToggle" class="auth-mode-toggle">Chưa có tài khoản? Đăng ký</button>
+    </div>
+</section>
