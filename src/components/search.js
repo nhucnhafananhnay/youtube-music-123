@@ -15,8 +15,6 @@ const searchBox = document.querySelector(".search-box");
 let debounceTimer;
 let suggestionRequest = 0;
 let resultRequest = 0;
-let currentQuery = "";
-let currentPage = 1;
 let currentResultsData = null;
 let currentResultsQuery = "";
 let currentTypeFilter = "all";
@@ -352,8 +350,6 @@ async function runSearch(rawQuery, page = 1, fromRoute = false) {
     }
 
     input.value = query;
-    currentQuery = query;
-    currentPage = page;
     closeSuggestions();
 
     if (currentResultsQuery === query && currentResultsData) {

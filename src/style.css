@@ -1191,9 +1191,7 @@ body.sidebar-collapsed .header {
     border-radius: 10px;
 }
 
-/* =========================
-   LOGIN
-========================= */
+/*LOGIN*/
 
 .login-page {
     min-height: 100%;
@@ -1512,9 +1510,7 @@ body.sidebar-collapsed .header {
 }
 
 
-/* =========================
-   LOGIN
-========================= */
+/* LOGIN*/
 
 .login-page {
     min-height: 100%;
@@ -1818,7 +1814,6 @@ body.sidebar-collapsed .header {
 
 .library-page {
     min-height: 100%;
-    /* The header is fixed above #content, so leave room for it. */
     padding: 100px 60px 50px;
 }
 
@@ -2160,9 +2155,7 @@ body.sidebar-collapsed .header {
 
     margin-bottom: 12px;
 }
-/* =========================
-   EXPLORE
-========================= */
+/* Explore */
 
 .explore-page {
     min-height: 100%;
@@ -2568,9 +2561,7 @@ body.sidebar-collapsed .header {
     }
 }
 
-/* =========================
-   DETAIL PAGE
-========================= */
+/* DETAIL PAGE*/
 
 .detail-page {
     min-height: 100%;

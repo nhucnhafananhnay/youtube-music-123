@@ -87,9 +87,7 @@ function createMediaImage(item, type) {
 }
 
 
-/* =========================
-   ALBUM
-========================= */
+/* ALBUM*/
 
 function renderAlbums(items) {
     const list = document.querySelector("#albumExploreList");
@@ -119,9 +117,7 @@ function renderAlbums(items) {
 }
 
 
-/* =========================
-   VIDEO
-========================= */
+/* VIDEO*/
 
 function renderVideos(items) {
     const list = document.querySelector("#videoList");
@@ -151,9 +147,7 @@ function renderVideos(items) {
 }
 
 
-/* =========================
-   NEW RELEASE
-========================= */
+/* NEW RELEASE*/
 
 function renderNewReleases(items) {
     const list = document.querySelector("#newReleaseList");
@@ -184,9 +178,7 @@ function renderNewReleases(items) {
 }
 
 
-/* =========================
-   CATEGORY
-========================= */
+/* CATEGORY*/
 
 async function getExploreMeta() {
     return getData("/explore/meta");
@@ -226,9 +218,7 @@ function renderCategories(items) {
 }
 
 
-/* =========================
-   LINE
-========================= */
+/* LINE*/
 
 function renderLines(items) {
     const list = document.querySelector("#lineList");
@@ -258,9 +248,7 @@ function renderLines(items) {
 }
 
 
-/* =========================
-   CHART
-========================= */
+/*CHART*/
 
 async function getVideoCharts() {
     const data = await getData(
@@ -352,9 +340,7 @@ function renderCharts(items, chartType = "video") {
 }
 
 
-/* =========================
-   SCROLL
-========================= */
+/* SCROLL*/
 
 function initExploreScroll() {
     document
@@ -393,9 +379,7 @@ function initExploreScroll() {
 }
 
 
-/* =========================
-   SHORTCUT
-========================= */
+/*SHORTCUT*/
 
 function initExploreShortcuts() {
     document
@@ -418,9 +402,7 @@ function initExploreShortcuts() {
 }
 
 
-/* =========================
-   CHART TABS
-========================= */
+/* CHART TABS*/
 
 function initChartTabs() {
     const tabs =
@@ -455,9 +437,7 @@ function initChartTabs() {
 }
 
 
-/* =========================
-   INIT
-========================= */
+/* INIT*/
 
 export async function initExplore() {
     try {
